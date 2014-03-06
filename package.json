@@ -1,0 +1,19 @@
+{
+  "name": "cost-calculator",
+  "version": "0.0.1",
+  "description": "Estimate the cost of an open-bottom arch culvert installation in Downeast Maine.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "structure-width": "~0.1.0",
+    "tape": "~2.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Jacques Tardie <hi@jacquestardie.org> (http://jacquestardie.org/)",
+  "license": "MIT"
+}
