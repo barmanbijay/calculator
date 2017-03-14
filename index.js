@@ -1,14 +1,75 @@
-var structure = require ('structure-width');
+     function divide()
+        {
+            document.calculator.output.value += "/";
+        }
+        function add()
+        {
+            document.calculator.output.value += "+";
+        }
+        function num9()
+        {
+            document.calculator.output.value += "9";
+        }
+        function num8()
+        {
+            document.calculator.output.value += "8";
+        }
+        function num7()
+        {
+            document.calculator.output.value += "7";
 
-var culvert = function(length, width) {
-	var cost = (length * 305.973) + (width * 1037.1) - 10874.88;
-	return parseFloat(cost.toFixed(0));
-};
+        }
+        function multiply()
+        {
+            document.calculator.output.value += "*";
+        }
+        function percent()
+        {
+            document.calculator.output.value += "%";
+        }
+        function num6()
+        {
+            document.calculator.output.value += "6";
+        }
+        function num5()
+        {
+            document.calculator.output.value += "5";
+        }
 
-var total = function(length, width) {
-		var cost = (length * 459.753) + (width * 3079.43) - 19322.1;
-		return parseFloat(cost.toFixed(0));
-};
+        function num4()
+        {
+            document.calculator.output.value += "4";
+        }
 
-module.exports.culvert = culvert;
-module.exports.total = total;
+
+        function subtr()
+        {
+            document.calculator.output.value += "-";
+        }
+
+        function num3()
+        {
+            document.calculator.output.value += "3";
+        }
+
+        function num2()
+        {
+            document.calculator.output.value += "2";
+        }
+
+        function num1()
+        {
+            document.calculator.output.value += "1";
+        }
+
+        function numZero()
+        {
+            document.calculator.output.value += "0";
+        }
+
+function buildFormula()
+{
+var evalu= alert(eval(document.calculator.output.value)) + document.clear();
+document.calculator.output.value= evalu;
+}
+
